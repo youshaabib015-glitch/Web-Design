@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(90deg, #3498db, #8e44ad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #FFA500, #FF4500);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
